@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Roboto', 'Lato', sans-serif;
+}
+
+/* ------------------------------------NavBar */
+
+.navbar {
+    padding: 8px 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 56px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* ------------------------------------Colours */
+
+.banner-text {
+    color: #F6F8FF;
+}
+
+
+
+/* ------------------------------------Media Queries */
+
+footer {
+    background-color: #897C80;
+}
+
+/* ------------------------------------Footer */
+
+
+/* ------------------------------------Index Content */
+
+.landing-image {
+    background: url('../images/football.jpg') no-repeat center center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-image {
+    margin-top: 56px;
+    height: 550px;
+    width: 100%;;
+    overflow: hidden;
+}
+
+.landing-box {
+    background-color: rgba(234, 144, 16, 0.7);
+    color: #F6F8FF;
+    text-align: center;
+    padding: 20px 10px;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    right: 50px;
+    bottom: 30px;
+}
+
+
+/* ------------------------------------Booking Banner */
+
+.booking-banner {
+    background-color: #EA9010;
+    padding: 10px 20px;
+    text-align: center;
+}
