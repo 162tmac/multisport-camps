@@ -30,12 +30,25 @@ body {
 
 /* ------------------------------------Media Queries */
 
-footer {
-    background-color: #897C80;
-}
+
 
 /* ------------------------------------Footer */
 
+footer {
+    background-color: #897C80;
+    padding: 15px 15px;
+}
+
+footer > a {
+    text-decoration: none;
+    color:  #F6F8FF;
+}
+
+footer > div, footer > a  {
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: top;
+}
 
 /* ------------------------------------Index Content */
 
@@ -44,26 +57,42 @@ footer {
     background-size: cover;
     height: 550px;
     width: 100%;
-    position: relative;
+    
+
+    animation-name: hero-zoom;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
 }
 
 .hero-image {
     margin-top: 56px;
     height: 550px;
-    width: 100%;;
+    width: 100%;
     overflow: hidden;
+    position: relative;
+
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 .landing-box {
-    background-color: rgba(234, 144, 16, 0.7);
+    background-color: rgba(234, 144, 16, 0.8);
     color: #F6F8FF;
     text-align: center;
+    border-radius: 10%;
     padding: 20px 10px;
     position: absolute;
     height: 300px;
     width: 300px;
-    right: 50px;
-    bottom: 30px;
+    right: 60px;
+    bottom: 50px;
 }
 
 
