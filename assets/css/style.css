@@ -93,10 +93,18 @@ footer {
 
 /* ------------------------------------Index Content */
 
+.hero-image {
+    margin-top: 56px;
+    height: 95vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 .landing-image {
     background: url('../images/football.jpg') no-repeat center center;
     background-size: cover;
-    height: 550px;
+    height: inherit;
     width: 100%;
     
 
@@ -105,14 +113,7 @@ footer {
     animation-fill-mode: forwards;
 }
 
-.hero-image {
-    margin-top: 56px;
-    height: 550px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
 
-}
 
 @keyframes hero-zoom {
     from {
