@@ -160,6 +160,13 @@ footer {
     display: inline-block;
 }
 
+/* ------------------------------------About Page */
+
+.about-content{
+    margin: 30px;
+}
+
+
 /* ------------------------------------Location Page */
 
 .location-content {
