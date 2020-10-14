@@ -2,6 +2,7 @@
 
 body {
     padding: 0;
+    padding-top: 0;
     border: 0;
     margin: 0;
     font-family: 'Roboto', 'Lato', sans-serif;
@@ -11,12 +12,6 @@ body {
 
 .navbar {
     padding: 8px 32px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 56px;
-    width: 100%;
-    z-index: 1;
 }
 
 nav > a {
@@ -54,14 +49,7 @@ nav > a > span {
 
 
 
-/* ------------------------------------Media Queries */
 
-@media only screen and (max-width: 560px) {
-    .footer-logo, .footer-contact, .footer-address {
-        padding-left: 60px;
-        padding-bottom: 20px;
-    }
-}
 
 /* ------------------------------------Footer */
 
@@ -89,19 +77,16 @@ footer {
     margin-left: 10px;
 }
 
-
-
 /* ------------------------------------Index Content */
 
-.hero-image {
-    margin-top: 56px;
+.hero {
     height: 95vh;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-.landing-image {
+.hero-image {
     background: url('../images/football.jpg') no-repeat center center;
     background-size: cover;
     height: inherit;
@@ -124,7 +109,7 @@ footer {
     }
 }
 
-.landing-box {
+.hero-box {
     background-color: rgba(234, 144, 16, 0.8);
     color: #F6F8FF;
     text-align: center;
@@ -137,26 +122,30 @@ footer {
     bottom: 50px;
 }
 
-.landing-box > h3, .landing-box > h5 {
+.hero-box > h3, .hero-box > h5 {
     font-family: 'Lato';
 }
 
-.landing-box > p {
+.hero-box > p {
     font-weight: 300;
 }
 
-.landing-box > hr {
+.hero-box > hr {
     margin: 5px 0;
 }
 
-.landing-box > button {
+.hero-box > button {
     background-color: #897C80;
     border-color:#897C80;
 }
 
-.landing-box > button:hover {
+.hero-box > button:hover {
     background-color: #157F1F;
     border-color:#157F1F;
+}
+
+.landing-content {
+    margin: 30px;
 }
 
 /* ------------------------------------Booking Banner */
@@ -169,4 +158,46 @@ footer {
 
 .booking-banner > * {
     display: inline-block;
+}
+
+/* ------------------------------------Location Page */
+
+.location-content {
+    margin: 30px;
+    text-align: center;
+}
+
+.location-map{
+    height: 80vh;
+    width: 90%;
+}
+
+/* ------------------------------------Contact Page */
+
+.contact-content {
+    margin: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.contact-form {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    background-color: #F6F8FF;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+/* ------------------------------------Media Queries */
+
+@media (max-width: 560px) {
+    .footer-logo, .footer-contact, .footer-address {
+        padding-left: 60px;
+        padding-bottom: 20px;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
 }
