@@ -118,8 +118,8 @@ footer {
     position: absolute;
     height: 300px;
     width: 300px;
-    right: 60px;
-    bottom: 50px;
+    right: 50px;
+    bottom: 80px;
 }
 
 .hero-box > h3, .hero-box > h5 {
@@ -148,6 +148,16 @@ footer {
     margin: 30px;
 }
 
+.landing-content .card {
+    margin-bottom: 20px;
+}
+
+
+.card-header > i {
+    font-size: 40px;
+    color:  #EA9010;
+}
+
 /* ------------------------------------Booking Banner */
 
 .booking-banner {
@@ -164,6 +174,23 @@ footer {
 
 .about-content{
     margin: 30px;
+}
+
+.about-content h1{
+    text-align: center
+}
+
+.about-content > div > div {
+    width: 100%;
+    height: auto;
+    padding-top: 20px
+}
+
+.about-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+    padding-bottom: 20px;
 }
 
 
@@ -188,6 +215,23 @@ footer {
 }
 
 .contact-form {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    background-color: #F6F8FF;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+/* ------------------------------------Booling Page */
+
+.booking-content {
+    margin: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.booking-form {
     width: 50%;
     text-align: left;
     margin: 0 auto;
