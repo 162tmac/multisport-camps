@@ -38,6 +38,7 @@
 * [HTML5 & CSS3]()
 * [Bootstrap](https://getbootstrap.com/)
 * [Font Awesome](https://fontawesome.com/)
+* Hover
 
 
 
