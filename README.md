@@ -29,7 +29,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Picture here
+
+
+This is a static website built with HTML5, CSS3 & Bootstrap. It was made for my first project with the Code Institute in Dublin.
+
+The website is to be used by a group of teachers to promote their sport summers camps and make booking online. 
 
 
 
@@ -38,7 +43,7 @@
 * [HTML5 & CSS3]()
 * [Bootstrap](https://getbootstrap.com/)
 * [Font Awesome](https://fontawesome.com/)
-* Hover
+* [Hover.css](https://ianlunn.github.io/Hover/)
 
 
 
@@ -46,15 +51,17 @@
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [tom.m.mcevoy@gmail.com](tom.m.mcevoy@gmail.com) - email
+### Tom McEvoy
 
-Project Link: [https://github.com/162tmac/project1](https://github.com/162tmac/project1)
+
+Email: tom.m.mcevoy@gmail.com
+
+My Github Acc: [https://github.com/162tmac/](https://github.com/162tmac/) <br />
+Project Link:  [https://github.com/162tmac/project1](https://github.com/162tmac/project1)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* 
