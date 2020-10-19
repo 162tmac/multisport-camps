@@ -18,18 +18,22 @@ hr {
     padding: 8px 32px;
 }
 
-nav > a {
+.navbar-brand {
     display: inline;
     min-width: 200px;
 }
 
-nav > a > span {
+.navbar-brand > span {
     height: 30px;
     font-family: 'Lato';
     font-size: 1.2rem;
     font-weight: 300;
     letter-spacing: 2px;
     margin-left: 4px
+}
+
+.nav-item {
+    font-family: 'Lato';
 }
 
 .booking-button {
