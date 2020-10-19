@@ -110,8 +110,6 @@ footer h4 {
     animation-fill-mode: forwards;
 }
 
-
-
 @keyframes hero-zoom {
     from {
         transform: scale(1.3);
@@ -189,7 +187,9 @@ footer h4 {
 }
 
 .about-content h1{
-    text-align: center
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 600;
 }
 
 .about-content > div > div {
@@ -198,11 +198,15 @@ footer h4 {
     padding-top: 20px
 }
 
+.about-content h3 {
+    font-family: 'Lato';
+    font-weight: 600;
+}
+
 .about-content img {
     width: 100%;
     height: auto;
     border-radius: 5%;
-    padding-bottom: 20px;
 }
 
 
