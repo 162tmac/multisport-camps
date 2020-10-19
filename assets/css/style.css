@@ -9,7 +9,8 @@ body {
 }
 
 hr {
-    width: 50%;
+    width: 25%;
+    margin: 1rem auto;
 }
 
 /* ------------------------------------NavBar */
@@ -141,7 +142,7 @@ footer h4 {
 }
 
 .hero-box > hr {
-    margin: 5px 0;
+    margin: 5px auto;
 }
 
 .hero-box > button {
