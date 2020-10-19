@@ -52,14 +52,17 @@ nav > a > span {
 }
 
 
-
-
-
 /* ------------------------------------Footer */
 
 footer {
     background-color: #897C80;
     padding: 15px 0;
+    font-family: 'Roboto';
+}
+
+footer h4 {
+    font-family: 'Lato';
+    text-decoration: underline;
 }
 
 .footer-logo > h4 {
@@ -68,6 +71,7 @@ footer {
     font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: 2px;
+    text-decoration: none;
 }
 
 #address-icon {
@@ -227,7 +231,7 @@ footer {
     padding: 20px;
 }
 
-/* ------------------------------------Booling Page */
+/* ------------------------------------Booking Page */
 
 .booking-content {
     margin: 30px;
@@ -242,33 +246,6 @@ footer {
     background-color: #F6F8FF;
     border-radius: 5%;
     padding: 20px;
-}
-
-/* ------------------------------------hover.css */
-
-/* Icon Forward */
-.hvr-icon-forward {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.1s;
-  transition-duration: 0.1s;
-}
-.hvr-icon-forward .hvr-icon {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-transition-duration: 0.1s;
-  transition-duration: 0.1s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-icon-forward:hover .hvr-icon, .hvr-icon-forward:focus .hvr-icon, .hvr-icon-forward:active .hvr-icon {
-  -webkit-transform: translateX(4px);
-  transform: translateX(4px);
 }
 
 
