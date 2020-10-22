@@ -7,12 +7,11 @@
   <h3 align="center">MultiSports Summer Camp Website</h3>
 
   <p align="center">
-    Project 1 by Tom McEvoy for my course with the code institute
+    Project 1 by Tom McEvoy for my course with the Code Institute.
     <br />
 
   </p>
 </p>
-
 
 
 
@@ -21,7 +20,7 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Contact](#contact)
-* 
+* [Further Additions](#further-additions)
 
 
 
@@ -36,14 +35,12 @@ There are pages for information about the camp, the location and contact and boo
 
 
 
-
 ### Built With
 
 * HTML5 & CSS3
 * [Bootstrap](https://getbootstrap.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [Hover.css](https://ianlunn.github.io/Hover/)
-
 
 
 
@@ -56,6 +53,7 @@ Email: tom.m.mcevoy@gmail.com
 
 My Github Acc: [https://github.com/162tmac/](https://github.com/162tmac/) <br />
 Project Link:  [https://github.com/162tmac/project1](https://github.com/162tmac/project1)
+
 
 
 ## Further Additions
