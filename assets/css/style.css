@@ -218,6 +218,11 @@ footer h4 {
     text-align: center;
 }
 
+.location-content > h1 {
+    font-family: 'Lato';
+    font-weight: 600;
+}
+
 .location-map{
     height: 80vh;
     width: 90%;
@@ -231,10 +236,16 @@ footer h4 {
     text-align: center;
 }
 
+.contact-content > h1, .contact-content h3 {
+    font-family: 'Lato';
+    font-weight: 600;
+}
+
 .contact-form {
     width: 50%;
     text-align: left;
     margin: 0 auto;
+    margin-bottom: 46px;
     background-color: #F6F8FF;
     border-radius: 5%;
     padding: 20px;
@@ -248,10 +259,16 @@ footer h4 {
     text-align: center;
 }
 
+.booking-content > h1, .booking-content h3 {
+    font-family: 'Lato';
+    font-weight: 600;
+}
+
 .booking-form {
     width: 50%;
     text-align: left;
     margin: 0 auto;
+    margin-bottom: 46px;
     background-color: #F6F8FF;
     border-radius: 5%;
     padding: 20px;
