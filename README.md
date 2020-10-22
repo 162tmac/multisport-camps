@@ -7,7 +7,7 @@
   <h3 align="center">MultiSports Summer Camp Website</h3>
 
   <p align="center">
-    Project 1 by Tom McEvoy for my course with the [Code Institute](https://codeinstitute.net/).
+    Project 1 by Tom McEvoy for my course with the [Code Institute](https://codeinstitute.net/)
     <br />
 
   </p>
