@@ -1,4 +1,3 @@
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/162tmac/project1">
@@ -16,31 +15,31 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+* 
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Picture here
-
+![Landing Page ScreenShot](./assets/images/README-images/landing-screenshot.jpeg)
 
 This is a static website built with HTML5, CSS3 & Bootstrap. It was made for my first project with the Code Institute in Dublin.
 
-The website is to be used by a group of teachers to promote their sport summers camps and make booking online. 
+The website is to be used by a group of teachers to promote their sport summers camps and allow users to make bookings online.
+There are pages for information about the camp, the location and contact and booking areas.
+
 
 
 
 ### Built With
 
-* [HTML5 & CSS3]()
+* HTML5 & CSS3
 * [Bootstrap](https://getbootstrap.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [Hover.css](https://ianlunn.github.io/Hover/)
@@ -48,7 +47,6 @@ The website is to be used by a group of teachers to promote their sport summers 
 
 
 
-<!-- CONTACT -->
 ## Contact
 
 ### Tom McEvoy
@@ -60,8 +58,17 @@ My Github Acc: [https://github.com/162tmac/](https://github.com/162tmac/) <br />
 Project Link:  [https://github.com/162tmac/project1](https://github.com/162tmac/project1)
 
 
+## Further Additions
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+### Contact Form
+* At the moment, the contact form does nothing.
+In the future, I hope to add an email API to the contact form so the user can actually send an email to the camp provider.
+APIs are out of the scope of this project and I'm also waiting on confirmation from the provider.
 
-* 
+### Booking Form
+* Same goes for the booking form.
+I hope to connect a payment provider such as Stripe to this and allow users to make booking, where then a confirmation email will be sent to both user & provider.
+
+### Content of the website
+* I don't have some of the information for the camps yet.
+Content such as phone numbers and email addresses I have filled with placeholder text.
