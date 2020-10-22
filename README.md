@@ -27,7 +27,7 @@
 
 ## About The Project
 
-![Landing Page ScreenShot](./assets/images/README-images/landing-screenshot.jpeg)
+![Landing Page ScreenShot](./assets/images/README-images/landing-screenshot.JPG)
 
 This is a static website built with HTML5, CSS3 & Bootstrap. It was made for my first project with the Code Institute in Dublin.
 
