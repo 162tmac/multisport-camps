@@ -99,7 +99,7 @@ footer h4 {
     position: relative;
 }
 
-.hero-image {
+#hero-image {
     background: url('../images/football.jpg') no-repeat center center;
     background-size: cover;
     height: inherit;
@@ -120,7 +120,7 @@ footer h4 {
     }
 }
 
-.hero-box {
+#hero-box {
     background-color: rgba(234, 144, 16, 0.8);
     color: #F6F8FF;
     text-align: center;
@@ -133,24 +133,24 @@ footer h4 {
     bottom: 15%;
 }
 
-.hero-box > h3, .hero-box > h5 {
+#hero-box > h3, .hero-box > h5 {
     font-family: 'Lato';
 }
 
-.hero-box > p {
+#hero-box > p {
     font-weight: 300;
 }
 
-.hero-box > hr {
+#hero-box > hr {
     margin: 5px auto;
 }
 
-.hero-box > button {
+#hero-box > button {
     background-color: #897C80;
     border-color:#897C80;
 }
 
-.hero-box > button:hover {
+#hero-box > button:hover {
     background-color: #157F1F;
     border-color:#157F1F;
 }
@@ -162,7 +162,6 @@ footer h4 {
 .landing-content .card {
     margin-bottom: 20px;
 }
-
 
 .card-header > i {
     font-size: 40px;
@@ -193,7 +192,7 @@ footer h4 {
     font-weight: 600;
 }
 
-.about-content > div > div {
+.about-content > .container > .row {
     width: 100%;
     height: auto;
     padding-top: 20px
@@ -209,7 +208,6 @@ footer h4 {
     height: auto;
     border-radius: 5%;
 }
-
 
 /* ------------------------------------Location Page */
 
@@ -273,7 +271,6 @@ footer h4 {
     border-radius: 5%;
     padding: 20px;
 }
-
 
 /* ------------------------------------Media Queries */
 
