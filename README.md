@@ -2,6 +2,8 @@
 
 This is a static website built mainly with HTML5, CSS3 & Bootstrap. It was made for my first project with the Code Institute in Dublin.
 
+A live version of the website can be viewed [here](https://162tmac.github.io/project1/).
+
 The website for a group of teachers to promote their sport summers camps and allow users to make bookings online.
 There are pages for information about the camp, the location and contact and booking areas.
 
@@ -22,7 +24,7 @@ It provides information on the camp, areas to book a place and contact the organ
 
 Here is a pdf of the wireframes I did before starting my project:
  
- * [Wireframes](wireframes/project-1-wireframes.pdf)
+ * [Wireframes](wireframes/project-1-wireframe.pdf)
 
 They have changed a bit from the original design based on my conversations with the organisers of the camp after sending a version of the site to them.
 
@@ -77,15 +79,8 @@ using media queries and Bootstrap classes.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+My project has been deployed on GitHub Pages and can be viewed here:
+[https://162tmac.github.io/project1/](https://162tmac.github.io/project1/)
 
 ## Credits
 
