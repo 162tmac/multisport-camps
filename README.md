@@ -94,4 +94,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
+<<<<<<< HEAD
 - I'd like to thank my mentor Gurjot Singh for all the help and advice during the development of the website
+=======
+- I'd like to thank my mentor Gurjot Singh for all the help and advice during the development of the website
+>>>>>>> 41118687f771c09d6b408c00a8ad7562e52d517a
