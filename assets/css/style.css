@@ -50,19 +50,13 @@ hr {
     border-color: #157F1F;
 }
 
-/* ------------------------------------Colours */
-
-.banner-text {
-    color: #F6F8FF;
-}
-
-
 /* ------------------------------------Footer */
 
 footer {
     background-color: #897C80;
     padding: 15px 0;
     font-family: 'Roboto';
+    box-shadow: 0 50vh 0 50vh #897C80;
 }
 
 .footer-headers {
@@ -146,8 +140,8 @@ footer {
 }
 
 #more-info-button {
-    background-color: #897C80;
-    border-color:#897C80;
+    background-color: #212529;;
+    border-color:#212529;
 }
 
 #more-info-button:hover {
@@ -174,6 +168,10 @@ footer {
     background-color: #EA9010;
     padding: 20px 20px;
     text-align: center;
+}
+
+.banner-text {
+    color: #F6F8FF;
 }
 
 .booking-banner > * {
