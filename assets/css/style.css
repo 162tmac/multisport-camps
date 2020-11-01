@@ -65,12 +65,12 @@ footer {
     font-family: 'Roboto';
 }
 
-footer h4 {
+.footer-headers {
     font-family: 'Lato';
     text-decoration: underline;
 }
 
-.footer-logo > h4 {
+#footer-logo-header {
     color:  #F6F8FF;
     font-family: 'Lato';
     font-size: 1.5rem;
@@ -133,11 +133,11 @@ footer h4 {
     bottom: 15%;
 }
 
-#hero-box > h3, .hero-box > h5 {
+#hero-heading , #hero-subheading {
     font-family: 'Lato';
 }
 
-#hero-box > p {
+.hero-box-content {
     font-weight: 300;
 }
 
@@ -145,12 +145,12 @@ footer h4 {
     margin: 5px auto;
 }
 
-#hero-box > button {
+#more-info-button {
     background-color: #897C80;
     border-color:#897C80;
 }
 
-#hero-box > button:hover {
+#more-info-button:hover {
     background-color: #157F1F;
     border-color:#157F1F;
 }
@@ -186,19 +186,19 @@ footer h4 {
     margin: 30px;
 }
 
-.about-content h1{
+#about-heading {
     text-align: center;
     font-family: 'Lato';
     font-weight: 600;
 }
 
-.about-content > .container > .row {
+.about-container {
     width: 100%;
     height: auto;
     padding-top: 20px
 }
 
-.about-content h3 {
+.about-subheadings {
     font-family: 'Lato';
     font-weight: 600;
 }
@@ -216,7 +216,7 @@ footer h4 {
     text-align: center;
 }
 
-.location-content > h1 {
+#location-heading {
     font-family: 'Lato';
     font-weight: 600;
 }
@@ -234,7 +234,7 @@ footer h4 {
     text-align: center;
 }
 
-.contact-content > h1, .contact-content h3 {
+#contact-heading, #contact-subheading {
     font-family: 'Lato';
     font-weight: 600;
 }
@@ -257,7 +257,7 @@ footer h4 {
     text-align: center;
 }
 
-.booking-content > h1, .booking-content h3 {
+#booking-heading, #booking-subheading {
     font-family: 'Lato';
     font-weight: 600;
 }
@@ -270,6 +270,10 @@ footer h4 {
     background-color: #F6F8FF;
     border-radius: 5%;
     padding: 20px;
+}
+
+.booking-form #child2, .booking-form #child3 {
+    display: none;
 }
 
 /* ------------------------------------Media Queries */

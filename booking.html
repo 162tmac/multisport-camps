@@ -48,9 +48,9 @@
     </header>
 
     <section class="booking-content">
-            <h1><i class="fa fa-credit-card fa-fw"></i>  Online Booking</h1>
+            <h1 id="booking-heading"><i class="fa fa-credit-card fa-fw"></i>  Online Booking</h1>
             <hr>
-            <h3>Booking details</h3>
+            <h3 id="booking-subheading">Booking details</h3>
             <p>Fill in the form below and you will be taken to an online payment section where you can pay with your credit/debit card.</p>
             <form action="#" class="booking-form">
                 <div class="form-group">
@@ -73,6 +73,8 @@
                         <option value = "3">3</option>
                     </select>
                     <input type="text" class="form-control" id="child1" placeholder="Child 1's name..." required>
+                    <input type="text" class="form-control" id="child2" placeholder="Child 2's name...">
+                    <input type="text" class="form-control" id="child3" placeholder="Child 3's name...">
                 </div>
 
 
@@ -84,15 +86,15 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 pl-4 footer-logo">
-                    <h4>MultiSport Camps</h4>
+                    <h4 id="footer-logo-header">MultiSport Camps</h4>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 pl-4 footer-contact">
-                    <h4>Contact Details</h4>
+                    <h4 class="footer-headers">Contact Details</h4>
                     <div><i class="fa fa-phone"></i> 087 999 9999</div>
                     <div><i class="fa fa-at"></i> martin@example.com</div>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 pl-4 footer-address">
-                    <h4>Address</h4>
+                    <h4 class="footer-headers">Address</h4>
                     <div>
                         <span id="address-icon"><i class="fa fa-map-marker"></i></span>
                         <span id="address-text">Paulstown,<br>Co. Kilkenny,<br>Ireland.</span>
@@ -112,6 +114,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
