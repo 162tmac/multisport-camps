@@ -2,7 +2,7 @@
 
 This is a static website built mainly with HTML5, CSS3 & Bootstrap. It was made for my first project with the Code Institute in Dublin.
 
-A live version of the website can be viewed [here](https://162tmac.github.io/project1/).
+A live version of the website can be viewed [here](https://162tmac.github.io/multisport-camps/).
 
 The website for a group of teachers to promote their sport summers camps and allow users to make bookings online.
 There are pages for information about the camp, the location and contact and booking areas.
@@ -80,7 +80,7 @@ using media queries and Bootstrap classes.
 ## Deployment
 
 My project has been deployed on GitHub Pages and can be viewed here:
-[https://162tmac.github.io/project1/](https://162tmac.github.io/project1/)
+[https://162tmac.github.io/multisport-camps/](https://162tmac.github.io/multisport-camps/)
 
 ## Credits
 
