@@ -150,7 +150,10 @@ footer {
 }
 
 .landing-content {
-    margin: 30px;
+    margin: 10px;
+    @media only screen and (max-width: 600px) {
+        margin:30px
+    }
 }
 
 .location-card-heading {
@@ -191,7 +194,10 @@ footer {
 /* ------------------------------------About Page */
 
 .about-content{
-    margin: 30px;
+    margin: 10px;
+    @media only screen and (max-width: 600px) {
+        margin:30px
+    }
 }
 
 #about-heading {
@@ -220,8 +226,11 @@ footer {
 /* ------------------------------------Location Page */
 
 .location-content {
-    margin: 30px;
+    margin: 10px;
     text-align: center;
+    @media only screen and (max-width: 600px) {
+        margin:30px
+    }
 }
 
 #location-heading {
@@ -237,9 +246,12 @@ footer {
 /* ------------------------------------Contact Page */
 
 .contact-content {
-    margin: 30px;
+    margin: 10px;
     padding: 5px;
     text-align: center;
+    @media only screen and (max-width: 600px) {
+        margin:30px
+    }
 }
 
 #contact-heading, #contact-subheading {
@@ -260,9 +272,12 @@ footer {
 /* ------------------------------------Booking Page */
 
 .booking-content {
-    margin: 30px;
+    margin: 10px;
     padding: 5px;
     text-align: center;
+    @media only screen and (max-width: 600px) {
+        margin:30px
+    }
 }
 
 #booking-heading, #booking-subheading {
