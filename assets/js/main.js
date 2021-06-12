@@ -81,8 +81,3 @@ document.querySelector('#children').addEventListener("change", ()=>{
         childAge5.required = true;
     }
 })
-
-document.querySelector('#camps-list a').addEventListener('click', (e) => {
-    e.preventDefault()
-    document.querySelector(this).tab('show')
-})
