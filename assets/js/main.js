@@ -82,7 +82,7 @@ document.querySelector('#children').addEventListener("change", ()=>{
     }
 })
 
-document.querySelector('#bologna-list a').addEventListener('click', (e) => {
+document.querySelector('#camps-list a').addEventListener('click', (e) => {
     e.preventDefault()
     document.querySelector(this).tab('show')
 })
