@@ -55,19 +55,19 @@
             <form action="https://formspree.io/f/mbjqygkb" method="POST" class="booking-form">
                 <div class="form-group">
                     <label for="name">Your Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Your name..." required>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Your name..." required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Your email address..." required>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your email address..." required>
                 </div>
                 <div class="form-group">
                     <label for="phone">Phone</label>
-                    <input type="text" class="form-control" id="phone" placeholder="Your phone number..." required>
+                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Your phone number..." required>
                 </div>
                 <div class="form-group">
                     <label for="selectCamp">Camp</label>
-                    <select class="form-control" id="selectCamp" required>
+                    <select class="form-control" name="selectCamp" id="selectCamp" required>
                         <option value="" selected disabled hidden>Select camp...</option>
                         <option>Paulstown</option>
                         <option>Wexford Town</option>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="form-group">
                     <label for="children">Number of children:</label>
-                    <select id = "children">
+                    <select id="children" name="children">
                         <option value = "1">1</option>
                         <option value = "2">2</option>
                         <option value = "3">3</option>
@@ -88,56 +88,54 @@
                     <div class="form-row" if="child1">
                         <div class="form-group col-md-6">
                             <label for="childName1">Name</label>
-                            <input type="text" class="form-control child-name" id="childName1" placeholder="Child 1's name..." required>
+                            <input type="text" class="form-control child-name" name="childName1" id="childName1" placeholder="Child 1's name..." required>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="childAge1">Age</label>
-                            <input type="number" class="form-control child-age" id="childAge1" min=6 max=20 value=10 required>
+                            <input type="number" class="form-control child-age" name="childAge1" id="childAge1" min=6 max=20 value=10 required>
                         </div>
                     </div>
                     <div class="form-row" id="child2">
                         <div class="form-group col-md-6">
                             <label for="childName2">Name</label>
-                            <input type="text" class="form-control child-name" id="childName2" placeholder="Child 2's name..." required>
+                            <input type="text" class="form-control child-name" name="childName2" id="childName2" placeholder="Child 2's name..." required>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="childAge2">Age</label>
-                            <input type="number" class="form-control child-age" id="childAge2" min=6 max=20 value=10 required>
+                            <input type="number" class="form-control child-age" name="childAge2" id="childAge2" min=6 max=20 value=10 required>
                         </div>
                     </div>
                     <div class="form-row" id="child3">
                         <div class="form-group col-md-6">
                             <label for="childName3">Name</label>
-                            <input type="text" class="form-control child-name" id="childName3" placeholder="Child 3's name..." required>
+                            <input type="text" class="form-control child-name" name="childName3" id="childName3" placeholder="Child 3's name..." required>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="childAge3">Age</label>
-                            <input type="number" class="form-control child-age" id="childAge3" min=6 max=20 value=10 required>
+                            <input type="number" class="form-control child-age" name="childName3" id="childAge3" min=6 max=20 value=10 required>
                         </div>
                     </div>
                     <div class="form-row" id="child4">
                         <div class="form-group col-md-6">
                             <label for="childName4">Name</label>
-                            <input type="text" class="form-control child-name" id="childName4" placeholder="Child 4's name..." required>
+                            <input type="text" class="form-control child-name" name="childName4" id="childName4" placeholder="Child 4's name..." required>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="childAge4">Age</label>
-                            <input type="number" class="form-control child-age" id="childAge4" min=6 max=20 value=10 required>
+                            <input type="number" class="form-control child-age" name="childName4" id="childAge4" min=6 max=20 value=10 required>
                         </div>
                     </div>
                     <div class="form-row" id="child5">
                         <div class="form-group col-md-6">
                             <label for="childName5">Name</label>
-                            <input type="text" class="form-control child-name" id="childName5" placeholder="Child 5's name..." required>
+                            <input type="text" class="form-control child-name" name="childName5" id="childName5" placeholder="Child 5's name..." required>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="childAge5">Age</label>
-                            <input type="number" class="form-control child-age" id="childAge5" min=6 max=20 value=10 required>
+                            <input type="number" class="form-control child-age" name="childName5" id="childAge5" min=6 max=20 value=10 required>
                         </div>
                     </div>
                 </div>
-
-
                 <button type="submit" class="btn btn-primary mb-2">Send</button>
             </form>
         <hr>
