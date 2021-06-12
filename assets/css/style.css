@@ -153,6 +153,12 @@ footer {
     margin: 30px;
 }
 
+.location-card-heading {
+    padding: 1rem;
+    color: #EA9010;
+    font-family: 'Lato';
+    margin-bottom: 0;
+}
 .landing-content .card {
     margin-bottom: 20px;
 }

@@ -81,3 +81,8 @@ document.querySelector('#children').addEventListener("change", ()=>{
         childAge5.required = true;
     }
 })
+
+document.querySelector('#bologna-list a').addEventListener('click', (e) => {
+    e.preventDefault()
+    document.querySelector(this).tab('show')
+})
