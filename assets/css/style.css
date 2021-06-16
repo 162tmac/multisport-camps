@@ -259,6 +259,18 @@ footer {
 
 /* ------------------------------------Booking Page */
 
+#booking-link {
+    margin-bottom: 1rem;
+    transition: transform .2s; /* Animation */
+    width: auto;
+    height: 100px;
+    margin: 2rem auto;
+}
+
+#booking-link:hover {
+    transform: scale(1.2);
+}
+
 .booking-content {
     margin: 10px;
     padding: 5px;
@@ -270,14 +282,16 @@ footer {
     font-weight: 600;
 }
 
-.booking-form {
-    width: 50%;
+.booking-help {
+    width: 70%;
     text-align: left;
     margin: 0 auto;
     margin-bottom: 46px;
     background-color: #F6F8FF;
     border-radius: 5%;
     padding: 20px;
+
+
 }
 
 .booking-form #child2,
@@ -295,9 +309,11 @@ footer {
         padding-bottom: 20px;
     }
 
-    .contact-form, .booking-form {
+    .contact-form, .booking-help {
         width: 90%;
     }
+
+
 }
 
 @media (min-width: 600px) {

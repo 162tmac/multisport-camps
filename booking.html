@@ -51,93 +51,61 @@
             <h1 id="booking-heading"><i class="fa fa-credit-card fa-fw"></i>  Online Booking</h1>
             <hr>
             <h3 id="booking-subheading">Booking details</h3>
-            <p>Fill in the form below and you will be taken to an online payment section where you can pay with your credit/debit card.</p>
-            <form action="https://formspree.io/f/mbjqygkb" method="POST" class="booking-form">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" class="form-control" name="name" id="name" placeholder="Your name..." required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your email address..." required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone</label>
-                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Your phone number..." required>
-                </div>
-                <div class="form-group">
-                    <label for="selectCamp">Camp</label>
-                    <select class="form-control" name="selectCamp" id="selectCamp" required>
-                        <option value="" selected disabled hidden>Select camp...</option>
-                        <option>Paulstown</option>
-                        <option>Wexford Town</option>
-                        <option>Oylegate</option>
-                        <option>Leighlinbridge</option>
-                        <option>Ramsgrange</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="children">Number of children:</label>
-                    <select id="children" name="children">
-                        <option value = "1">1</option>
-                        <option value = "2">2</option>
-                        <option value = "3">3</option>
-                        <option value = "4">4</option>
-                        <option value = "5">5</option>
-                    </select>
-                    <div class="form-row" if="child1">
-                        <div class="form-group col-md-6">
-                            <label for="childName1">Name</label>
-                            <input type="text" class="form-control child-name" name="childName1" id="childName1" placeholder="Child 1's name..." required>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="childAge1">Age</label>
-                            <input type="number" class="form-control child-age" name="childAge1" id="childAge1" min=6 max=20 value=10 required>
-                        </div>
-                    </div>
-                    <div class="form-row" id="child2">
-                        <div class="form-group col-md-6">
-                            <label for="childName2">Name</label>
-                            <input type="text" class="form-control child-name" name="childName2" id="childName2" placeholder="Child 2's name...">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="childAge2">Age</label>
-                            <input type="number" class="form-control child-age" name="childAge2" id="childAge2" min=6 max=20 value=10>
-                        </div>
-                    </div>
-                    <div class="form-row" id="child3">
-                        <div class="form-group col-md-6">
-                            <label for="childName3">Name</label>
-                            <input type="text" class="form-control child-name" name="childName3" id="childName3" placeholder="Child 3's name...">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="childAge3">Age</label>
-                            <input type="number" class="form-control child-age" name="childAge3" id="childAge3" min=6 max=20 value=10>
-                        </div>
-                    </div>
-                    <div class="form-row" id="child4">
-                        <div class="form-group col-md-6">
-                            <label for="childName4">Name</label>
-                            <input type="text" class="form-control child-name" name="childName4" id="childName4" placeholder="Child 4's name...">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="childAge4">Age</label>
-                            <input type="number" class="form-control child-age" name="childAge4" id="childAge4" min=6 max=20 value=10>
-                        </div>
-                    </div>
-                    <div class="form-row" id="child5">
-                        <div class="form-group col-md-6">
-                            <label for="childName5">Name</label>
-                            <input type="text" class="form-control child-name" name="childName5" id="childName5" placeholder="Child 5's name...">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="childAge5">Age</label>
-                            <input type="number" class="form-control child-age" name="childAge5" id="childAge5" min=6 max=20 value=10>
-                        </div>
+            <p>Click the button below to proceed to Easy Payments Plus web page to complete booking form and payment <br>for your child or children to participate in Summer Multisport Camps:</p>
+            <a href="https://pay.easypaymentsplus.com/feepay1.aspx?id=1540" target="_blank"><img id="booking-link" src="https://pay.easypaymentsplus.com/Images_MEP_EPP_Content/MEP_Content/Buttons/epp_enrol_here_1.gif" alt="" /></a>
+            <p>Below are a few helpful tips to complete the booking:</p>
+            <div class="booking-help">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="./assets/images/1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">1. Register an account on Easy Payments Plus as a parent.</p>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary mb-2">Send</button>
-            </form>
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="./assets/images/2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">2. Please read Terms and Conditions on Home Screen before filling out form.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="./assets/images/3.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">3. To view information booklet about the particular camp, click on the paragraph for that camp underneath “Description” for the information leaflet for each venue’s camp.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="./assets/images/4.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"> The following steps are to book your child:</p>
+                        <p class="card-text">4. Click “Add to Bill” button for each child and fill in their details.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="./assets/images/5.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">5. For any mobile number section on the forms, please use parent’s mobile number only.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="./assets/images/6.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">6. Please check your bill at the top of page to ensure it is correct before clicking ‘Proceed to Payment’.</p>
+                        <p class="card-text">List of prices to compare your bill to are as follows:
+                            <ul>
+                                <li>1 child = €60</li>
+                                <li>2 children = €110</li>
+                                <li>3 children = €150</li>
+                                <li>4 children = €190</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 100%">
+                    <div class="card-body">
+                        <p class="card-text">7. If any problems arise, please call, WhatsApp or text Tom on 0876884136.</p>
+                    </div>
+                </div>
+            </div>
         <hr>
     </section>
     <footer>
@@ -148,8 +116,8 @@
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 pl-4 footer-contact">
                     <h4 class="footer-headers">Contact Details</h4>
-                    <div><i class="fa fa-phone"></i> 087 688 4136 (Kilkenny)</div>
-                    <div><i class="fa fa-phone"></i> 087 756 7488 (Wexford)</div>
+                    <div><i class="fa fa-phone"></i> 087 688 4136 (Tom)</div>
+                    <div><i class="fa fa-phone"></i> 087 756 7488 (Liam)</div>
                     <div><i class="fa fa-at"></i> summermultisports.camps@gmail.com</div>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 pl-4 footer-address">
