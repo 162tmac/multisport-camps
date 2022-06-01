@@ -188,6 +188,22 @@ footer {
     display: inline-block;
 }
 
+/* ------------------------------------Booking Banner */
+
+.dates-banner {
+    background-color: #157F1F;
+    padding: 10px 10px;
+    color: #F6F8FF;
+}
+
+.dates-banner > * {
+    display: inline-block;
+}
+
+.dates-banner .fa-times {
+    cursor: pointer;
+}
+
 /* ------------------------------------About Page */
 
 .about-content{
@@ -288,17 +304,8 @@ footer {
     margin: 0 auto;
     margin-bottom: 46px;
     background-color: #F6F8FF;
-    border-radius: 5%;
+    border-radius: 1rem;
     padding: 20px;
-
-
-}
-
-.booking-form #child2,
-.booking-form #child3,
-.booking-form #child4,
-.booking-form #child5 {
-    display: none;
 }
 
 /* ------------------------------------Media Queries */
@@ -312,8 +319,6 @@ footer {
     .contact-form, .booking-help {
         width: 90%;
     }
-
-
 }
 
 @media (min-width: 600px) {
